@@ -11,7 +11,6 @@ exports.handler = async (event, context) => {
     let statusCode;
 
     try {
-        console.log("Event --> ", event);
         const data = JSON.parse(event.body);
         const { Students: students } = data;
         let payload = [];
