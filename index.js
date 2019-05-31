@@ -31,7 +31,7 @@ exports.handler = async (event, context) => {
 
         let params = {
             RequestItems: {
-                'studentsDB': payload
+                'StudentsRegistrationDB': payload
             }
         };
 
