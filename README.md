@@ -1,7 +1,7 @@
 ### AWS Student Upload
 A simple lambda function to insert list of students into dynamodb and return the count of inserted students.
 
-##Stack
+## Stack
 
 1. NodeJS
 2. DynamoDB
