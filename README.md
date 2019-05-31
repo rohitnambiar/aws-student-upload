@@ -40,6 +40,10 @@ aws cloudformation package --template-file stack.yml --s3-bucket <YOUR_UNIQUE_BU
 aws cloudformation deploy --template-file packaged-stack.yaml --stack-name <YOUR_STACK_NAME> --capabilities CAPABILITY_IAM
 ```
 
+## Demo
+
+Postman collection included with this repo.
+
 ## Demo Url [POST]
 
 https://tog7qh4sxg.execute-api.ap-southeast-1.amazonaws.com/dev/import

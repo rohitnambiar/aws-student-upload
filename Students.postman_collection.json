@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Students",
+		"_postman_id": "90aed577-f545-ffe0-7e6a-3b07a89f7bdc",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Import",
+			"request": {
+				"url": "https://tog7qh4sxg.execute-api.ap-southeast-1.amazonaws.com/dev/import",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"Students\":[\r\n      {\r\n         \"firstName\":\"Stan\",\r\n         \"lastName\":\"Student\",\r\n         \"age\":20,\r\n         \"email\":\"stan@university.com\"\r\n      },\r\n      {\r\n         \"firstName\":\"Stew\",\r\n         \"lastName\":\"Study\",\r\n         \"age\":23,\r\n         \"email\":\"stew@university.com\"\r\n      },\r\n      {\r\n         \"firstName\":\"Paul\",\r\n         \"lastName\":\"Cambridge\",\r\n\t\t \"age\":25,\r\n         \"email\":\"paul@university.com\"\r\n      }\r\n   ]\r\n}\r\n"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
