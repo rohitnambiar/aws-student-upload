@@ -1,12 +1,22 @@
 ### AWS Student Upload
+A simple lambda function to insert list of students into dynamodb and return the count of inserted students.
 
-## Deploy
+##Stack
+
+1. NodeJS
+2. DynamoDB
+3. Api-Gateway
+4. S3
+5. CloudFormation
+
+
+## Deploy via Script
 
 ```
 sh run.sh <YOUR_UNIQUE_BUCKET_NAME>
 ```
 
-## Deploy
+## Deploy Manually
 
 1. Create your bucket
 
